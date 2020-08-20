@@ -1,6 +1,7 @@
 # pjproject-sys
 
 A rust project that creates rust bindings to pjproject.
+For a minimal coverage sip phone library in Rust please visit https://github.com/Charles-Schleich/sip-phone-rs . 
 
 
 ## Disclaimer
