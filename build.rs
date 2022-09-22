@@ -66,10 +66,8 @@ fn link_libs_macos(){
     // Need to include this so I can call core functions and security functions on mac
     println!("cargo:rustc-link-lib=framework=CoreFoundation");
     println!("cargo:rustc-link-lib=framework=Security");
-    // fuck me im clever for figuring this shit out
 
     println!("cargo:rustc-link-search={}/pjlibs/mac_os", project_dir);
-
     println!("cargo:rustc-link-lib=pjsua-x86_64-apple-darwin17.7.0");
     println!("cargo:rustc-link-lib=pjsip-x86_64-apple-darwin17.7.0");
     println!("cargo:rustc-link-lib=pj-x86_64-apple-darwin17.7.0");
